@@ -1,0 +1,70 @@
+{
+	"name": "dropdown-menu-demo",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@jailandrade/dropdown-menu": "^1.0.11",
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "PORT=3090 react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest",
+			"plugin:storybook/recommended"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/plugin-transform-private-property-in-object": "^7.24.7",
+		"@chromatic-com/storybook": "^1.6.1",
+		"@storybook/addon-essentials": "^8.2.7",
+		"@storybook/addon-interactions": "^8.2.7",
+		"@storybook/addon-links": "^8.2.7",
+		"@storybook/addon-onboarding": "^8.2.7",
+		"@storybook/addon-styling-webpack": "^1.0.0",
+		"@storybook/blocks": "^8.2.7",
+		"@storybook/builder-webpack5": "^8.2.8",
+		"@storybook/manager-webpack5": "^6.5.16",
+		"@storybook/preset-create-react-app": "^8.2.7",
+		"@storybook/react": "^8.2.7",
+		"@storybook/react-webpack5": "^8.2.7",
+		"@storybook/test": "^8.2.7",
+		"eslint-plugin-storybook": "^0.8.0",
+		"globals": "^15.9.0",
+		"postcss": "^8.4.41",
+		"postcss-loader": "^8.1.1",
+		"prettier": "3.3.3",
+		"prop-types": "^15.8.1",
+		"storybook": "^8.2.7",
+		"tailwindcss": "^3.4.7",
+		"webpack": "^5.93.0"
+	},
+	"overrides": {
+		"react-refresh": "0.14.2"
+	}
+}
